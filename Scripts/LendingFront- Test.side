@@ -1,0 +1,923 @@
+{
+  "id": "743662f1-69c4-4378-8486-fe43120e77a9",
+  "version": "2.0",
+  "name": "LendingFront- Test",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "9f5971c8-0e43-420f-841e-03932e88d515",
+    "name": "Capterra",
+    "commands": [{
+      "id": "4ed8e7ca-a7ba-43af-8c4a-027554c0d90f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9a62f8e-f679-4954-ab18-756c7195dc4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f180c136-4e0b-4032-ae1c-f5b5de3a2281",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lendingfront"
+    }, {
+      "id": "46bb644f-89fb-4e24-8cee-32c421030b5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchform",
+      "targets": [
+        ["id=searchform", "id"],
+        ["css=#searchform", "css:finder"],
+        ["xpath=//div[@id='searchform']", "xpath:attributes"],
+        ["xpath=//div[@id='viewport']/div[3]", "xpath:idRelative"],
+        ["xpath=//body/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb228fc2-02d5-4d49-aaf5-0f99361aaedf",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79324784-d01f-4c34-b82b-014549610ad6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[3]/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'LendingFront - Opiniones, precios, y características - Capterra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af2b9edd-5106-4c2d-869a-4917fd45606e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sobre nosotros",
+      "targets": [
+        ["linkText=Sobre nosotros", "linkText"],
+        ["css=.mr-2:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sobre nosotros')]", "xpath:link"],
+        ["xpath=//nav[@id='productNav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#about')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre nosotros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c42752d6-2c8c-4f96-acfe-f2ee85c2bedb",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38dcd088-e606-4664-8694-5c244260b446",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Precios",
+      "targets": [
+        ["linkText=Precios", "linkText"],
+        ["css=.mr-2:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Precios')]", "xpath:link"],
+        ["xpath=//nav[@id='productNav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#pricing')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Precios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56b0d272-8dbd-4fe3-b718-3c8a0c285a79",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70ad902b-a00c-40a7-83fe-3b0a095716d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Funcionalidades",
+      "targets": [
+        ["linkText=Funcionalidades", "linkText"],
+        ["css=.mr-2:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Funcionalidades')]", "xpath:link"],
+        ["xpath=//nav[@id='productNav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#features')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Funcionalidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d26fcba7-5161-45b6-99eb-65025484379e",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9c64f5e-31cd-4858-89bb-6de38fbee312",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Similar",
+      "targets": [
+        ["linkText=Similar", "linkText"],
+        ["css=.mr-2:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Similar')]", "xpath:link"],
+        ["xpath=//nav[@id='productNav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#similar')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Similar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af84064c-1b6d-44fa-bbed-8b19914058a0",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be75837b-6fad-4c1f-9c29-fc44078a9cc6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Opiniones",
+      "targets": [
+        ["linkText=Opiniones", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Opiniones')]", "xpath:link"],
+        ["xpath=//nav[@id='productNav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#reviews')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Opiniones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ecf8638-3fb7-4a15-9a19-729b54a19bc1",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2cca1f5d-e5ba-485c-b028-92ca4364ce4a",
+    "name": "LendingFront - Solutions",
+    "commands": [{
+      "id": "a34c31d7-175b-4172-9304-cd4a3f66883f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b9e2fb2-afab-47b2-8bf0-0dec0987ac2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfe10a80-a7b5-4a6e-87b6-7d4734f07443",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lendingfront"
+    }, {
+      "id": "d3101aac-a371-4dfb-9446-5e0bcd2bd3f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tsf > div:nth-child(2)",
+      "targets": [
+        ["css=#tsf > div:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4b56786-ffad-482b-b6e4-6bf7c086ef01",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce3551d1-7c53-452d-abd7-ca633e3628f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rc:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.rc:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'LendingFront | Powerful Small Business Lending Technology ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d03dfe47-f2be-4fa7-a01e-6b7eff8872cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solutions",
+      "targets": [
+        ["linkText=Solutions", "linkText"],
+        ["css=#menu-item-73 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Solutions')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-73']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#solutions')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Solutions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a804e97-e04c-4294-8bae-7f11fe552b81",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control12",
+      "targets": [
+        ["id=slick-slide-control12", "id"],
+        ["css=#slick-slide-control12", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control12']", "xpath:attributes"],
+        ["xpath=//section[@id='solutions']/div/div[2]/div/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91df6e03-e1fc-4b2d-bbdb-e0576551304c",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control13",
+      "targets": [
+        ["id=slick-slide-control13", "id"],
+        ["css=#slick-slide-control13", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control13']", "xpath:attributes"],
+        ["xpath=//section[@id='solutions']/div/div[2]/div/div/ul/li[4]/button", "xpath:idRelative"],
+        ["xpath=//li[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eacaa00-81de-4806-a6c7-cb804920a544",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f914a8c0-9633-40bb-b28b-d0be845b685c",
+    "name": "LendingFront - Company",
+    "commands": [{
+      "id": "62aa7835-5305-4cc6-bb54-dd43f8153fad",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3400ee4-dfa9-4848-87a9-6f5ec87f175e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d2172b0-69be-4ae3-b64c-02a5e9d62fef",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lendingfront"
+    }, {
+      "id": "56bedaf9-b9fa-4a8b-88c5-8b7c3b99904f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tsf > div:nth-child(2)",
+      "targets": [
+        ["css=#tsf > div:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4970a85-acc1-4054-9788-05f05bf60116",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d23280e-7545-4ed9-8a69-27c3c809f1f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rc:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.rc:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'LendingFront | Powerful Small Business Lending Technology ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaed3191-6e32-448e-9413-ae34e154870e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Company",
+      "targets": [
+        ["linkText=Company", "linkText"],
+        ["css=#menu-item-74 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Company')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-74']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#company')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Company')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "262eeb86-fc22-4806-8b44-4036f510d23a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aos-init:nth-child(2) .team-member-headshot",
+      "targets": [
+        ["css=.aos-init:nth-child(2) .team-member-headshot", "css:finder"],
+        ["xpath=//img[contains(@src,'https://1by7iu11nzt82rnr7e3bts8c-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/headshot-dario-vergara.jpg')]", "xpath:img"],
+        ["xpath=//section[@id='company']/div/div/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eae6233b-1dd8-454a-9c37-4c352ddf383c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aos-init:nth-child(1) .team-member-headshot",
+      "targets": [
+        ["css=.aos-init:nth-child(1) .team-member-headshot", "css:finder"],
+        ["xpath=//img[contains(@src,'https://1by7iu11nzt82rnr7e3bts8c-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/headshot-jorge-sun.jpg')]", "xpath:img"],
+        ["xpath=//section[@id='company']/div/div/div/div/div[3]/div/div/div/div/div/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99bf58e2-9a5b-4c69-9ee1-2bef660e8ec0",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "01465727-5cae-4e76-b5b8-532e044c1b8b",
+    "name": "LendingFront - Customers",
+    "commands": [{
+      "id": "f83c288a-7d0b-49ae-a48c-c29f540034bc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a232fd6-c622-41de-93b7-cbfbd055fa22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1276x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "887b51e9-a083-4d38-959f-88bdc3db59bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lendingfront"
+    }, {
+      "id": "d2fa3b9b-88cf-4f15-b269-39640728ec71",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "03e845a8-7b74-4fe3-abf8-efe146a7b621",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rc:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.rc:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'LendingFront | Powerful Small Business Lending Technology ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bde2be7-da93-4503-a8d4-6478b9b26ce1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customers",
+      "targets": [
+        ["linkText=Customers", "linkText"],
+        ["css=#menu-item-75 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Customers')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-75']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#customers')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Customers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f7cf8e9-20a7-4739-a493-bede83cb2c49",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0836affc-405a-493e-8c29-7b74f8ddf15d",
+    "name": "LendingFront - Blog",
+    "commands": [{
+      "id": "547b1248-c6ff-4d4d-80f8-700530d794c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7945d6c0-95f9-4db8-b6af-7f706941ab5a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1276x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8900a112-45a0-413f-9b53-460319df6672",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lendingfront"
+    }, {
+      "id": "2d9131e3-137d-4d76-959e-3d0b99d1cfde",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34bb2291-f7eb-4605-bba0-fab56abbc5b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rc:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.rc:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'LendingFront | Powerful Small Business Lending Technology ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8e0741-188c-48b5-90de-faab3984ad08",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=#menu-item-171 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-171']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://lendingfront.com/blog/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af24566e-2a76-46e1-84b9-9e9b9aa36e8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(1) .card-title",
+      "targets": [
+        ["css=.col-md-4:nth-child(1) .card-title", "css:finder"],
+        ["xpath=//div[@id='posts']/div/a/div[2]/h5", "xpath:idRelative"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'COVID-19 is reshaping everything—including small business lending')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1b9d992-1193-42a0-810c-549065b82845",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Some Small Businesses May Not Qualify for COVID-19 Relief—Here’s How Community Banks and Lenders Can Help",
+      "targets": [
+        ["linkText=Some Small Businesses May Not Qualify for COVID-19 Relief—Here’s How Community Banks and Lenders Can Help", "linkText"],
+        ["css=.col > .h5", "css:finder"],
+        ["xpath=//a[contains(text(),'Some Small Businesses May Not Qualify for COVID-19 Relief—Here’s How Community Banks and Lenders Can Help')]", "xpath:link"],
+        ["xpath=//div[@id='page']/div[2]/section/div/div/div/div/div[5]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://lendingfront.com/blog/banks/some-small-businesses-may-not-qualify-for-covid-19-relief-heres-how-community-banks-and-lenders-can-help/')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Some Small Businesses May Not Qualify for COVID-19 Relief—Here’s How Community Banks and Lenders Can Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b61095df-f317-47e4-b579-bcbe683586fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Webinar Recording: Meeting the Needs of Small Business Borrowers During (and After) Covid-19",
+      "targets": [
+        ["linkText=Webinar Recording: Meeting the Needs of Small Business Borrowers During (and After) Covid-19", "linkText"],
+        ["css=.text-left > .h5", "css:finder"],
+        ["xpath=//a[contains(text(),'Webinar Recording: Meeting the Needs of Small Business Borrowers During (and After) Covid-19')]", "xpath:link"],
+        ["xpath=//div[@id='page']/div[2]/section/div/div/div/div/div[5]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://lendingfront.com/blog/banks/webinar-meeting-the-needs-of-small-business-borrowers-during-and-after-covid-19/')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Webinar Recording: Meeting the Needs of Small Business Borrowers During (and After) Covid-19')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c9d1efa-beb3-4765-9604-279800273683",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6dcc57c0-6546-4cd9-af4a-d880e97f5276",
+    "name": "LendingFront - Home",
+    "commands": [{
+      "id": "29ceb4bb-1330-44fc-aac9-13095fc47ec9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "853037e0-86b0-4cf6-908b-1259357d65d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d6bce4f-39f3-44e5-9421-2c49f5f2878c",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lendingfront"
+    }, {
+      "id": "8d933d66-ab9f-4c32-8ae6-58122584f6c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e9ea254-d0f1-4531-8f49-877731eb8703",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rc:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.rc:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'LendingFront | Powerful Small Business Lending Technology ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42d83234-4825-420f-b710-11f6c3367bc4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Solutions",
+      "targets": [
+        ["linkText=Solutions", "linkText"],
+        ["css=#menu-item-73 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Solutions')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-73']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#solutions')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Solutions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da7467b-0598-40b3-a51b-8bdf5f099f1f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=#menu-item-72 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-72']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#home')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd1f86d2-c41f-459a-bb17-a491717136c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=#menu-item-72 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-72']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#home')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "480081bc-38e8-4f0c-834f-6467996b516c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=#menu-item-72 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-72']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#home')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18d6e22c-4da8-4167-85bc-ed1827cee3ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vc_row:nth-child(1) .aos-init > p > .btn",
+      "targets": [
+        ["css=.vc_row:nth-child(1) .aos-init > p > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Request a Demo')])[2]", "xpath:link"],
+        ["xpath=//section[@id='home']/div/div/div/div/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/get-started')])[2]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e8935be-95e9-49b2-85a8-833c67a3b181",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_1",
+      "targets": [
+        ["id=input_1_1", "id"],
+        ["name=input_1", "name"],
+        ["css=#input_1_1", "css:finder"],
+        ["xpath=//input[@id='input_1_1']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "357b0cce-d783-4524-abd9-3f60451f0b0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_1_1",
+      "targets": [
+        ["id=input_1_1", "id"],
+        ["name=input_1", "name"],
+        ["css=#input_1_1", "css:finder"],
+        ["xpath=//input[@id='input_1_1']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lopezrjhoan@gmail.com"
+    }, {
+      "id": "b65a87eb-3309-46ce-9762-425e2769fcc2",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_1_2",
+      "targets": [
+        ["id=input_1_2", "id"],
+        ["name=input_2", "name"],
+        ["css=#input_1_2", "css:finder"],
+        ["xpath=//input[@id='input_1_2']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_2']/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "Jhoan"
+    }, {
+      "id": "3534de55-2eb3-473d-8d65-1775a7fcf26c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_1_3",
+      "targets": [
+        ["id=input_1_3", "id"],
+        ["name=input_3", "name"],
+        ["css=#input_1_3", "css:finder"],
+        ["xpath=//input[@id='input_1_3']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_3']/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": "Lopez"
+    }, {
+      "id": "a9962011-5438-4050-a041-34b0ced74798",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select2-selection",
+      "targets": [
+        ["css=.select2-selection", "css:finder"],
+        ["xpath=//li[@id='field_1_4']/div/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c9696ef-c572-4b32-aee4-4c85c38c0108",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4c9e2578-9b7d-4609-aa38-7d45a89ef129",
+    "name": "Google Search News",
+    "commands": [{
+      "id": "7d63a54e-7a32-41e7-9271-9695e1bcfc36",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d104cab-3448-494e-845d-cd26279dfe60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "836e51b3-c260-43c2-ae80-f70f38ea8cf0",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lendingfront"
+    }, {
+      "id": "873481c9-bbeb-46f5-858a-59fa798ddb31",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61ea1ed7-4371-46af-9846-19cd03281b9b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Imágenes",
+      "targets": [
+        ["linkText=Imágenes", "linkText"],
+        ["css=.hdtb-mitem:nth-child(5) > .q", "css:finder"],
+        ["xpath=//a[contains(text(),'Imágenes')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb-vis']/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=lendingfront&source=lnms&tbm=isch&sa=X&ved=2ahUKEwio-u7E04HpAhXYKrkGHUpcC64Q_AUoBHoECAwQBg')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Imágenes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d063a54-3d90-4169-827d-14e93ffb6319",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Noticias",
+      "targets": [
+        ["linkText=Noticias", "linkText"],
+        ["css=.NZmxZe:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Noticias')]", "xpath:link"],
+        ["xpath=//body[@id='yDmH0d']/div[2]/c-wiz/div/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=lendingfront&source=lmns&tbm=nws&bih=593&biw=1266&hl=es-419&ved=2ahUKEwjUnqzv04HpAhV0LbkGHVHUCPgQ_AUoAnoECAEQAg')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Noticias')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c2ff3a3-d5c2-498f-ac2c-a093a07476f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LendingFront closes $4m Series A round",
+      "targets": [
+        ["linkText=LendingFront closes $4m Series A round", "linkText"],
+        ["css=.b80nOe .l", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.finextra.com/pressarticle/76873/lendingfront-closes-4m-series-a-round')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LendingFront closes $4m Series A round')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a95efd0f-b002-4e1b-bb8f-a8a05e30180f",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "babe82c3-eafa-41dc-a0e0-b43fdc400d58",
+    "name": "LendingFront Web Site",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0836affc-405a-493e-8c29-7b74f8ddf15d", "f914a8c0-9633-40bb-b28b-d0be845b685c", "01465727-5cae-4e76-b5b8-532e044c1b8b", "2cca1f5d-e5ba-485c-b028-92ca4364ce4a", "6dcc57c0-6546-4cd9-af4a-d880e97f5276"]
+  }, {
+    "id": "12f42b52-c733-4dcc-a275-0ac02dda009e",
+    "name": "Google Search LendingFront",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["9f5971c8-0e43-420f-841e-03932e88d515", "4c9e2578-9b7d-4609-aa38-7d45a89ef129"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
